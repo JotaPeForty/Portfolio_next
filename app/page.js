@@ -11,6 +11,7 @@ import mail from '../public/png/mail.png'
 import tel from '../public/png/telephone.png'
 import pin from '../public/png/locate.png'
 import Aboutme from '../app/aboutme/page'
+import Projects from '../app/projects/page'
 
 
 export default function Home()
@@ -58,6 +59,7 @@ export default function Home()
         </div>
       </div>
         <Aboutme />
+        <Projects />
     </div>
   )
 }

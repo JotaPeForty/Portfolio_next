@@ -1,7 +1,8 @@
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     overflow: hidden;
+    height: 100vh;
 }
 .contlogos,
 .art{
@@ -9,11 +10,13 @@
     padding-top: 1rem;
     width: -webkit-fill-available;
 }
-.contlogos{
-    max-width: 60rem;
-}
+/* .contlogos{
+    padding-left: 3rem;
+    padding-right: 3rem;
+} */
 .art{
-    max-width: 35rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .title1{
@@ -47,7 +50,7 @@
     width: 7rem;
 }
 
-@media screen and (max-width: 800px){
+/* @media screen and (max-width: 800px){
     .container{
         display: flex;
         flex-direction: column;
@@ -57,7 +60,7 @@
     max-width: 100rem;
     }
 
-}
+} */
 
 
 /*

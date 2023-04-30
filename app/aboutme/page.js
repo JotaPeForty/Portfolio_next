@@ -32,6 +32,23 @@ import spark from '../../public/icons/spark.png'
 import premiere from '../../public/icons/premiere_pro.png'
 import audition from '../../public/icons/audition.png'
 import captivate from '../../public/icons/captivate.png'
+import adap from '../../public/icons/Soft/Adaptabilidad.png'
+import auto from '../../public/icons/Soft/Automotivacion.png'
+import com from '../../public/icons/Soft/Comunicacion.png'
+import crea from '../../public/icons/Soft/Creatividad.png'
+import deper from '../../public/icons/Soft/Desarrollo Personal.png'
+import empa from '../../public/icons/Soft/Empatía.png'
+import esac from '../../public/icons/Soft/Escucha Activa.png'
+import flex from '../../public/icons/Soft/Flexibilidad.png'
+import gesti from '../../public/icons/Soft/Gestion del Tiempo.png'
+import ini from '../../public/icons/Soft/Iniciativa.png'
+import men from '../../public/icons/Soft/Mentalidad Abierta.png'
+import opti from '../../public/icons/Soft/Optimismo.png'
+import puntu from '../../public/icons/Soft/Puntualidad.png'
+import resoc from '../../public/icons/Soft/Resolucion de Conflicto.png'
+import resop from '../../public/icons/Soft/Resolucion de Problema.png'
+import trae from '../../public/icons/Soft/Trabajo en Equipo.png'
+import volu from '../../public/icons/Soft/Voluntad de Aprender.png'
 
 
 
@@ -44,7 +61,9 @@ export default function AboutMe()
           <div className={styles.title1}>
             <hr className={styles.hr} />
             <h1 className={BigShouldersDisplay.className}>INTRODUCCION</h1>
+            <hr />
           </div>
+          <br />
           <p>
             👉Hola, mi nombre es Juan Pablo, siempre curioso y con facilidad para
             aprender, gracias a eso he adquirido muchos conocimientos y con aun
@@ -337,6 +356,114 @@ export default function AboutMe()
               </Link>
               <h5>
                 Adobe Captivate
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div className={styles.contlogos}>
+          <div className={styles.title2}>
+            <hr className={styles.hr} />
+            <h1 className={BigShouldersDisplay.className}>SOFT SKILL</h1>
+            <hr />
+          </div>
+          <div className={styles.logos}>
+            <div className={styles.div}>
+                <Image src={adap} alt='Adaptabilidad' width='auto' height='50' />
+              <h5>
+                Adaptabilidad
+              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={auto} alt='Automotivacion' width='auto' height='50' />
+              <h5>
+              Automotivacion              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={com} alt='Comunicacion' width='auto' height='50' />
+              <h5>
+              Comunicacion
+              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={crea} alt='Creatividad' width='auto' height='50' />
+              <h5>
+              Creatividad
+              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={deper} alt='Desarrollo Personal' width='auto' height='50' />
+              <h5>
+              Desarrollo Personal
+              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={empa} alt='Empatía' width='auto' height='50' />
+              <h5>
+              Empatía
+              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={esac} alt='Escucha Activa' width='auto' height='50' />
+              <h5>
+              Escucha Activa              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={flex} alt='Flexibilidad' width='auto' height='50' />
+              <h5>
+              Flexibilidad
+              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={gesti} alt='Gestion del Tiempo' width='auto' height='50' />
+              <h5>
+              Gestion del Tiempo
+              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={ini} alt='Iniciativa' width='auto' height='50' />
+              <h5>
+              Iniciativa
+              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={men} alt='Mentalidad Abierta' width='auto' height='50' />
+              <h5>
+              Mentalidad Abierta
+              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={opti} alt='Optimismo' width='auto' height='50' />
+              <h5>
+              Optimismo              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={puntu} alt='Puntualidad' width='auto' height='50' />
+              <h5>
+              Puntualidad
+              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={resoc} alt='Resolucion de Conflicto' width='auto' height='50' />
+              <h5>
+              Resolucion de Conflicto
+              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={resop} alt='Resolucion de Problema' width='auto' height='50' />
+              <h5>
+              Resolucion de Problema
+              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={trae} alt='Trabajo en Equipo' width='auto' height='50' />
+              <h5>
+              Trabajo en Equipo
+              </h5>
+            </div>
+            <div className={styles.div}>
+                <Image src={volu} alt='Voluntad de Aprender' width='auto' height='50' />
+              <h5>
+              Voluntad de Aprender
               </h5>
             </div>
           </div>

@@ -1,5 +1,6 @@
 .container{
-    
+    padding-top: 2rem;
+    height: 100vh;
 }
 
 .title{
@@ -16,31 +17,67 @@
 
 .h5{
     padding: 0.3rem;
+    width: 30rem;
+    text-align: center;
 }
 
 .cont{
-    padding: 1rem 6rem 0rem 6rem ;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    padding: 1rem 4rem 0rem 4rem ;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     justify-items: center;
-    gap: 1rem;
+    gap: 1rem; */
     font-size: 1.3rem;
 }
 
 .pro{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     background-color: #dddddd;
+    margin: 0.5rem;
+}
+
+.image{
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article{
+    padding: 1rem;
+    font-size: 0.8rem;
+    width: 200rem;
+}
+
+.log{
+    display: flex;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.container_link{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+
 }
 
 .link{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 100%
+    padding: 2rem;
 
 }
 
