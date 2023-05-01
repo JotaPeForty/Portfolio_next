@@ -23,7 +23,7 @@ import apex from '../../public/icons/apex.png'
 import github from '../../public/icons/github.png'
 import wordpress from '../../public/icons/wordpress.png'
 import coreldraw from '../../public/icons/corel-draw.png'
-import Dreamweaver from '../../public/icons/dreamweaver.png'
+import dreamweaver from '../../public/icons/dreamweaver.png'
 import photoshop from '../../public/icons/photoshop.png'
 import lightroom from '../../public/icons/lightroom.png'
 import flash from '../../public/icons/flash.png'
@@ -288,7 +288,7 @@ export default function AboutMe()
             </div>
             <div className={styles.div}>
               <Link href='https://www.adobe.com/' target='_blank'>
-                <Image src={Dreamweaver} alt='Dreamweaver' width='auto' height='40' />
+                <Image src={dreamweaver} alt='Dreamweaver' width='auto' height='40' />
               </Link>
               <h5>
                 Adobe Dreamweaver
