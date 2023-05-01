@@ -4,10 +4,14 @@
     overflow: hidden;
     height: 100vh;
 }
-.contlogos,
+.contlogos{
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
 .art{
     padding-left: 2rem;
-    padding-top: 1rem;
+    padding-bottom: 2rem;
     width: -webkit-fill-available;
 }
 /* .contlogos{
@@ -15,12 +19,14 @@
     padding-right: 3rem;
 } */
 .art{
+    font-size: 0.9rem;
     padding-left: 3rem;
     padding-right: 3rem;
 }
 
 .title1{
-    font-size: 1.3rem;
+    font-size: 1rem;
+    padding-left: 3rem;
 }
 
 .title2{
@@ -39,8 +45,10 @@
 .logos{
   display: flex;
   flex-flow: wrap;
-  padding: 1rem;
-
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
  } 
 
 .div{

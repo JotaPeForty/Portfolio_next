@@ -57,12 +57,12 @@ export default function AboutMe()
   return (
     <>
       <div className={styles.container}>
-        <article className={styles.art}>
           <div className={styles.title1}>
             <hr className={styles.hr} />
             <h1 className={BigShouldersDisplay.className}>INTRODUCCION</h1>
             <hr />
           </div>
+        <article className={styles.art}>
           <br />
           <p>
             👉Hola, mi nombre es Juan Pablo, siempre curioso y con facilidad para
