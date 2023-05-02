@@ -58,17 +58,19 @@
     width: 7rem;
 }
 
-/* @media screen and (max-width: 800px){
+@media screen and (max-width: 1400px){
     .container{
+        padding-top: 3rem;
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
     .conlogos,
     .art{
-    max-width: 100rem;
+    max-width: 80rem;
     }
 
-} */
+}
 
 
 /*

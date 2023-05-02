@@ -48,8 +48,8 @@ export default function Projects()
                 Por otro lado el fondo cambia segun el estado del tiempo de
                 la ciudad buscada.
               </p>
-              <br/>
-              <hr/>
+              <br />
+              <hr />
               <h4>
                 Tecnologias utilizadas:
               </h4>
@@ -113,11 +113,11 @@ export default function Projects()
               <p>
                 Buscar recetas || Filtrarlos / Ordenarlos || Crear nuevas recetas propias
               </p>
-              <br/>
-              <hr/>
+              <br />
+              <hr />
               <h4>
                 Tecnologias utilizadas:
-                </h4>
+              </h4>
               <div className={styles.log}>
                 <div className={styles.div}>
                   <Image src={html} alt='html 5' width='auto' height='30' />
@@ -202,8 +202,8 @@ export default function Projects()
               <p>
                 Buscar razas|| Filtrarlas / Ordenarlas || Crear nuevas propias
               </p>
-              <br/>
-              <hr/>
+              <br />
+              <hr />
               <h4>
                 Tecnologias utilizadas:
               </h4>
@@ -215,11 +215,11 @@ export default function Projects()
                   </h6>
                 </div>
                 <div className={styles.div}>
-                <Image src={sc} alt='Styled Components' width='auto' height='30' />
-              <h6>
-                Styled Components
-              </h6>
-            </div>
+                  <Image src={sc} alt='Styled Components' width='auto' height='30' />
+                  <h6>
+                    Styled Components
+                  </h6>
+                </div>
                 <div className={styles.div}>
                   <Image src={js} alt='JavaScript' width='auto' height='30' />
                   <h6>
@@ -294,8 +294,8 @@ export default function Projects()
               <p>
                 Al revisar la lista de características de la aplicación, hay tres partes que participan en el viaje: un conductor, un pasajero y un mediador (administrador).
               </p>
-              <br/>
-              <hr/>
+              <br />
+              <hr />
               <h4>
                 Tecnologias utilizadas:
               </h4>
