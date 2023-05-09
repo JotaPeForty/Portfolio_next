@@ -65,44 +65,26 @@ export default function AboutMe()
         <article className={styles.art}>
           <br />
           <p>
-            👉Hola, mi nombre es Juan Pablo, siempre curioso y con facilidad para
-            aprender, gracias a eso he adquirido muchos conocimientos y con aun
-            más por descubrir! Siendo un gran entusiasta de la tecnología desde el
-            primer curso.{' '}
+            ¡Hola! Soy Juan Pablo, un apasionado del diseño web y la tecnología. 
+            Desde que realicé mi primer curso en este ámbito en 1997, he aprendido de 
+            forma autodidacta y a través de diversas experiencias laborales y cursos. 
+            He adquirido habilidades en herramientas como JavaScript, React, Redux, NodeJs, 
+              Express y PostgreSQL, entre otros.{' '}
           </p>
           <br />
           <p>
-            Me orienté hacia el diseño y desarrollo web. Comencé en 1997
-            aprendiendo lo básico de manejo de PC, luego reparación de pc (2003)y
-            redes, ahí descubrí el diseño y aprendí de forma autodidacta algunas
-            herramientas, hasta mi primer curso de diseño web (2009). En el 2005
-            curse el ingreso a ingeniería en Computación, no pudiendo ingresar por
-            temas de fuerza mayor.
+            Además de mi experiencia laboral como supervisor en una empresa, 
+            donde desarrollé habilidades soft como la adaptabilidad, resolución de problemas, 
+            creatividad, liderazgo y trabajo en equipo, también he trabajado como freelancer 
+            en proyectos de diseño y desarrollo web. En el 2013, comencé a estudiar la carrera de 
+            Técnico Superior en Fotografía, lo que me brindó aún más herramientas y experiencia en diseño.
           </p>
           <br />
           <p>
-            Luego en el 2013 curse la carrera de Técnico Superior en Fotografía,
-            que me dio más herramientas y experiencia en diseño.
-          </p>
-          <br />
-          <p>
-            En mis años como supervisor en una empresa, me dio la experiencia de
-            transformar un sector de esta y formar un equipo de trabajo excelente
-            como así también aprender y hacer crecer mis soft skills,
-            (Adaptabilidad, Resolución de problemas, Creatividad, Liderazgo,
-            Trabajo en equipo).
-          </p>
-          <br />
-          <p>
-            Hoy ya terminado (2021) un el bootcamp de soyhenry, y retomando mi
-            camino inicial le sumo los siguientes conocimientos JavaScript, React,
-            Redux, NodeJs, Express, PostgreSQL y aún más lenguajes por seguir
-            aprendiendo, es momento de poner mi experiencia junto a mis
-            conocimientos a disposición de quien la requiera y comenzar una nueva
-            etapa, logrando reunir todo lo aprendido con el fin de poder crecer
-            como desarrollador, por eso estoy en búsqueda de ese grupo de trabajo
-            que me brinde la oportunidad de demostrarle mis aptitudes y
-            predisposición para llevar a cabo los objetivos propuestos
+          Después de completar el bootcamp de SoyHenry en el 2021, estoy entusiasmado por poner mis conocimientos
+          y experiencia a disposición de un equipo de trabajo que me brinde la oportunidad de crecer como desarrollador
+          y llevar a cabo nuevos objetivos y desafíos. Estoy comprometido a demostrar mis aptitudes y predisposición 
+          para lograrlos. ¡Hablemos!
           </p>
         </article>
         <div className={styles.contlogos}>
